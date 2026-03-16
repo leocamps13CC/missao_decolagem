@@ -35,3 +35,7 @@ python simulacao.py
 ## Autor
 
 Leonardo Campos Silva 
+
+## Fluxograma do sistema 
+O fluxograma abaixo representa a lógica de verificação de segurança antes da decolagem. 
+![Fluxograma](fluxograma_decolagem.png)
