@@ -1,30 +1,37 @@
-# Sistema de Verificação de Decolagem 
+# Missão Decolagem - Sistema de Verificação
 
-Projeto desenvolvido para a atividade integradora do curso de Ciência da Computação.
+## Descrição
+Projeto desenvolvido para simular a análise de telemetria de uma nave antes da decolagem.
 
-O sistema simula a análise de telemetria de uma nave espacial e verifica se as condições estão seguras para a decolagem.
+O sistema verifica:
 
-## Funcionalidades
+- Temperatura interna e externa
+- Integridade estrutural
+- Níveis de energia
+- Pressão dos tanques
+- Status de módulos críticos
 
-- Monitoramento de telemetria
-- Verificação de segurança para decolagem
-- Análise energética
-- Simulação da execução do sistema
+Com base nesses dados, o sistema decide se a nave está:
 
-## Tecnologias utilizadas
+PRONTO PARA DECOLAR  
+ou  
+DECOLAGEM ABORTADA
 
-- Python
-- Linux
-- Visual Studio Code
+## Estrutura do Projeto
 
-## Como executar o projeto
+telemetria.py → dados da telemetria  
+verificacao_decolagem.py → algoritmo de decisão  
+analise_energetica.py → cálculo de autonomia  
+simulacao.py → execução do sistema
 
-1. Abra o terminal na pasta do projeto
+## Como executar
 
-2. Execute o comando:
+1. Instalar Python
+2. Clonar o repositório
+3. Rodar:
 
-python3 simulacao.py
+python simulacao.py
 
-## Resultado esperado
+## Autor
 
-PRONTO PARA DECOLAR
+Leonardo Campos Silva 
