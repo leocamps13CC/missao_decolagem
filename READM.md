@@ -51,3 +51,9 @@ No terminal:
 
 ```bash
 python3 simulacao.py
+
+## Exemplo de execução 
+
+Perdas energéticas estimadas: 42.5 kwh
+Energia útil após perdas: 807.5 kwh
+Energia suficiente para a decolagem
