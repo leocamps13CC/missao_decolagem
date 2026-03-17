@@ -1,4 +1,5 @@
 #  Sistema de Verificação de Decolagem
+Sistema desenvolvido para simular uma pipeline de validação de segurança em missões aeroespaciais. 
 
 Este projeto simula um sistema responsável por verificar as condições de segurança de uma nave antes da decolagem.
 
