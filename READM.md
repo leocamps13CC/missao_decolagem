@@ -1,41 +1,53 @@
-# Missão Decolagem - Sistema de Verificação
+#  Sistema de Verificação de Decolagem
 
-## Descrição
-Projeto desenvolvido para simular a análise de telemetria de uma nave antes da decolagem.
+Este projeto simula um sistema responsável por verificar as condições de segurança de uma nave antes da decolagem.
 
-O sistema verifica:
+---
 
-- Temperatura interna e externa
+## Objetivo
+
+Garantir que todos os parâmetros estejam dentro dos limites seguros, evitando falhas críticas durante a decolagem.
+
+---
+
+##  Funcionalidades
+
+- Coleta de dados de telemetria
+- Verificação de condições de segurança
+- Simulação de decolagem
+- Análise energética
+
+---
+
+## Parâmetros analisados
+
+- Temperatura interna
+- Temperatura externa
 - Integridade estrutural
-- Níveis de energia
-- Pressão dos tanques
-- Status de módulos críticos
+- Nível de energia
+- Pressão do tanque
+- Eventos críticos
 
-Com base nesses dados, o sistema decide se a nave está:
+---
 
-PRONTO PARA DECOLAR  
-ou  
-DECOLAGEM ABORTADA
+##  Lógica do sistema
 
-## Estrutura do Projeto
+O sistema analisa todos os dados e decide:
 
-telemetria.py → dados da telemetria  
-verificacao_decolagem.py → algoritmo de decisão  
-analise_energetica.py → cálculo de autonomia  
-simulacao.py → execução do sistema
+- "Pronto para decolar"
+-  "Decolagem abortada"
 
-## Como executar
+---
 
-1. Instalar Python
-2. Clonar o repositório
-3. Rodar:
+##  Fluxograma
 
-python simulacao.py
-
-## Autor
-
-Leonardo Campos Silva 
-
-## Fluxograma do sistema 
-O fluxograma abaixo representa a lógica de verificação de segurança antes da decolagem. 
 ![Fluxograma](fluxograma_decolagem.png)
+
+---
+
+## ▶ Como executar
+
+No terminal:
+
+```bash
+python3 simulacao.py
